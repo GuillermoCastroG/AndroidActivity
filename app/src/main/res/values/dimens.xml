@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_top_siguiente">0px</dimen>
+    <dimen name="form_margin_top">5px</dimen>
+    <dimen name="btn_Bottom_editar">110dp</dimen>
+    <dimen name="tamaño_text_confirmar">30dp</dimen>
+
+    <dimen name="tamaño_Encabezado">30dp</dimen>
+    <dimen name="tamaño_Encabezado_Top">30dp</dimen>
+    <dimen name="tamaño_tv2Nombre_Top">140dp</dimen>
+    <dimen name="tamaño_Letra_Confirma">20sp</dimen>
+    <dimen name="tamaño_Espacio_Letra">40sp</dimen>
+    <dimen name="btn_Editar_Boottom">90dp</dimen>
+    <dimen name="text_margenLeft">15dp</dimen>
+
+
+
+
+</resources>

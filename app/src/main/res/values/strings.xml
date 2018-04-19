@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MiPrimerCodigo</string>
+    <string name="texto_btn_siguiente">Siguiente</string>
+    <string name="texto_btn_editar">Editar Datos</string>
+
+    <string name="text_campo_cel">Teléfono</string>
+    <string name="text_campo_email">Correo</string>
+    <string name="text_campo_des">Descripción Contacto</string>
+    <string name="text_confirmar">Confirmar Datos</string>
+
+
+    <string name="oncreate">OnCreate</string>
+    <string name="onstart">OnStart</string>
+    <string name="onrestart">OnRestart</string>
+    <string name="onresume">OnResume</string>
+    <string name="onpause">OnPause</string>
+    <string name="onstop">OnStop</string>
+    <string name="ondestory">OnDestroy</string>
+
+    <string name="Encabezado">CONFIRMAR DATOS</string>
+    <string name="Text_campo_Descripcion">Descripción:</string>
+    <string name="Text_campo_Tel">Tel:</string>
+    <string name="Text_campo_Email">Email:</string>
+    <string name="Text_campo_FechaNac">Fecha Nacimiento:</string>
+
+    <string name="hint_nombre">Escriba su nombre</string>
+    <string name="hint_email">Escriba su correo</string>
+    <string name="hint_tel">Escriba su teléfono</string>
+    <string name="hint_des">Escriba su descripción</string>
+
+</resources>

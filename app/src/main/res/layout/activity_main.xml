@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hint_nombre"
+
+
+
+
+        />
+
+    <CalendarView
+        android:id="@+id/calView"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_below="@id/tvNombre"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/tvCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|phone"
+        android:hint="@string/hint_tel"
+        android:layout_below="@id/calView"
+        />
+
+    <EditText
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/hint_email"
+        android:layout_below="@id/tvCel"
+        />
+    <EditText
+        android:id="@+id/tvDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/hint_des"
+        android:layout_below="@id/tvEmail"
+        />
+    <Button
+        android:id="@+id/btnSiguiente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_top_siguiente"
+        android:layout_below="@id/tvDes"
+        android:text="@string/texto_btn_siguiente"
+        android:theme="@style/btnSiguiente"
+
+        />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VistaDatos"
+
+    >
+
+
+    <TextView
+        android:id="@+id/tv2Encabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/Encabezado"
+        android:textSize="@dimen/tamaño_Encabezado"
+        android:layout_marginTop="@dimen/tamaño_Encabezado_Top"
+        android:layout_marginLeft="@dimen/text_margenLeft"
+
+        />
+
+    <TextView
+        android:id="@+id/tv2Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tamaño_Espacio_Letra"
+        android:layout_marginTop="@dimen/tamaño_tv2Nombre_Top"
+        android:textSize="@dimen/tamaño_Letra_Confirma"
+        android:layout_marginLeft="@dimen/text_margenLeft"
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_Nac"
+        android:layout_below="@id/tv2Nombre"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/tamaño_Letra_Confirma"
+            android:layout_marginLeft="@dimen/text_margenLeft"
+            android:text="@string/Text_campo_FechaNac"
+
+            />
+
+
+        <TextView
+            android:id="@+id/tv2Nac"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tamaño_Espacio_Letra"
+            android:textSize="@dimen/tamaño_Letra_Confirma"
+            android:layout_marginLeft="@dimen/text_margenLeft"
+
+
+            />
+
+    </LinearLayout>
+
+
+     <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_Cel"
+        android:layout_below="@id/ly_Nac"
+
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+                android:text="@string/text_campo_cel"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv2Cel"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_Espacio_Letra"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+
+
+                />
+
+          </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_Email"
+        android:layout_below="@id/ly_Cel"
+
+
+
+    >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+                android:text="@string/Text_campo_Email"
+
+                />
+
+
+            <TextView
+                android:id="@+id/tv2Email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tamaño_Espacio_Letra"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+
+                />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ly_Des"
+        android:layout_below="@id/ly_Email"
+
+        >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+                android:text="@string/Text_campo_Descripcion"
+
+                />
+
+            <TextView
+                android:id="@+id/tv2Des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/tamaño_Letra_Confirma"
+                android:layout_marginLeft="@dimen/text_margenLeft"
+
+                />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/btn_Editar_Boottom"
+
+        android:text="@string/texto_btn_editar"
+        android:theme="@style/btnSiguiente" />
+
+</RelativeLayout>
